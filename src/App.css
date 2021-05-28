@@ -1,10 +1,63 @@
 .Home {
   font-family: "Nunito", sans-serif;
-  text-align: center;
 }
 body::-webkit-scrollbar {
   display: none;
 }
-h1,div{
-  text-align: center;
+
+img{
+  display:block;
+  margin:auto;
+}
+
+button{
+  justify-content: 'center';
+  align-items: 'center';
+  padding: 0.5rem;
+  border: unset;
+  border-radius: 0.5rem;
+  background: #EF9F55;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.openContainer{
+  width: fit-content;
+}
+
+
+.flexbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.vanguardismo{
+  border: 2px solid #EF9F55;
+  padding: 0.3rem;
+  border-radius: 6px;
+}
+
+/* unvisited link */
+a:link {
+  color: #A8703C;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #A8703C;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #77522f;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #A8703C;
+  text-decoration: none;
 }
