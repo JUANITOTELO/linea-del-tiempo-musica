@@ -39,13 +39,7 @@ button{
 }
 
 /* unvisited link */
-a:link {
-  color: #A8703C;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
+a:link, a:active, a:visited{
   color: #A8703C;
   text-decoration: none;
 }
@@ -56,8 +50,8 @@ a:hover {
   text-decoration: none;
 }
 
-/* selected link */
-a:active {
-  color: #A8703C;
-  text-decoration: none;
+.mainDiv{
+  margin: auto;
+  width: 96%;
+  padding: 10px;
 }

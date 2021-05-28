@@ -19,10 +19,8 @@ const Home = () => {
     Epoca("Ahora", imagen[10])
   ];
   return (
-    <div>
-      <div style={{
-        margin: "0.9rem"
-      }}>
+    <div className="mainDiv">
+      <div>
         <h1>Linea de tiempo</h1>
         <Chrono
           scrollable={{ scrollbar: false }}
@@ -34,7 +32,7 @@ const Home = () => {
             secondary: "#EF9F55",
           }}>
           <div className="chrono-icons">
-            <img style={{ width: "5%" }} src={imagen[0]} />
+            <img className="iconoLine" src={imagen[0]} />
           </div>
           <Ficha
             titulo="Teatro Griego"
